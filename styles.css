@@ -177,6 +177,15 @@ i.intro__icon {
     text-align: justify;
 }
 
+.easter_egg {
+    color: transparent;
+    transition: color 1s;
+}
+
+.easter_egg:hover {
+    color: var(--secondary-text-color);
+    transition: color 1s;
+}
 
 /* ----- Experience and additonal info ----- */
 .experiences {

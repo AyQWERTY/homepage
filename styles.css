@@ -282,3 +282,11 @@ i.intro__icon {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+
+/* ----- Grids ----- */
+.grid_parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: clamp(20px, 5vw, 30px);
+}
